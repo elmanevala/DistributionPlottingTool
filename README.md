@@ -21,9 +21,26 @@ To use the tool, clone the repository to your computer. The required packages ar
 * [NumPy](https://numpy.org/install/)
 * [Matplotlib](https://matplotlib.org/stable/install/index.html)
 
-### User Guide
 
-The program offers multiple options for visualization.
+### User guide
 
-Start the program with the following command:
+The program has multiple options for visualization. 
 
+Start the program with the command:  
+
+```
+python3 init.py
+```
+
+
+The commands can be listed with the option "c".  
+
+![options](documentation/commands.png)
+
+The programs stops with the "quit" command.  
+
+### Example figures
+
+![gb](figures/gb_lc.png)
+![gender](figures/gender_dist.png)
+![pie](figures/gb_pie_chart.png)
