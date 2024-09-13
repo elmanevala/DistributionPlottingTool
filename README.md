@@ -16,10 +16,10 @@ The terminal distribution tool is used to visual some of the results found in th
 
 To use the tool, clone the repository to your computer. Packages needed listed below.
 
-* (Pyhton3)[https://www.python.org/downloads/]
-* (Pandas)[https://pandas.pydata.org/docs/getting_started/install.html]
-* (Numpy)[https://numpy.org/install/]
-* (Matplotlib)[https://matplotlib.org/stable/install/index.html]
+* [Pyhton3](https://www.python.org/downloads/)
+* [Pandas](https://pandas.pydata.org/docs/getting_started/install.html)
+* [Numpy](https://numpy.org/install/)
+* [Matplotlib](https://matplotlib.org/stable/install/index.html)
 
 ### User guide
 
@@ -27,7 +27,7 @@ The program has multiple options for visualization.
 
 Start the program with the command:  
 
-´´´
+```
 python3 init.py
 ```
 
