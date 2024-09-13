@@ -1,45 +1,29 @@
 # Distribution Plotting Tool, DHH 2024
 
-A plotting tool for the argument class dataset constructed in the [Digital Humanities Hackathon 2024](https://www.helsinki.fi/en/digital-humanities/helsinki-digital-humanities-hackathon-2024-dhh24) by the Parliament group.  
+A plotting tool for the argument class dataset created during the [Digital Humanities Hackathon 2024](https://www.helsinki.fi/en/digital-humanities/helsinki-digital-humanities-hackathon-2024-dhh24) by the Parliament group.
 
-### Echoes of the Chambers: Studying Democracy through Parliamentary 
+### Echoes of the Chambers: Studying Democracy through Parliamentary Speeches
 
-The hackathon team build a model to classify parliamentary speeched based on, how democracy is used as an argument in the speeches. The four categories, developped by humanities experts, were democracy under threat, as a value, as leverage and other. More information about the model and codes used to build the model [here](https://github.com/kferraga/ParliamentHackathon2024).  
+The hackathon team built a model to classify parliamentary speeches based on how democracy is used as an argument. The four categories, developed by humanities experts, are: democracy under threat, democracy as a value, democracy as leverage, and other. More information about the model and the code used to build it can be found [here](https://github.com/kferraga/ParliamentHackathon2024).
 
-More information about the hackathon and pictures from the event days in the [Hackathon website](https://www.helsinki.fi/en/digital-humanities/helsinki-digital-humanities-hackathon-2024-dhh24) and [instagram](https://www.instagram.com/dhhackathon/).  
+For more information about the hackathon and pictures from the event, visit the [Hackathon website](https://www.helsinki.fi/en/digital-humanities/helsinki-digital-humanities-hackathon-2024-dhh24) and follow the event on [Instagram](https://www.instagram.com/dhhackathon/).
 
-## Distribution tool
+## Distribution Tool
 
-The terminal distribution tool is used to visual some of the results found in the argument class data set.
+The terminal-based distribution tool is used to visualize some of the results from the argument class dataset.
 
-### Installation and packages
+### Installation and Packages
 
-To use the tool, clone the repository to your computer. Packages needed listed below.
+To use the tool, clone the repository to your computer. The required packages are listed below:
 
-* [Pyhton3](https://www.python.org/downloads/)
+* [Python 3](https://www.python.org/downloads/)
 * [Pandas](https://pandas.pydata.org/docs/getting_started/install.html)
-* [Numpy](https://numpy.org/install/)
+* [NumPy](https://numpy.org/install/)
 * [Matplotlib](https://matplotlib.org/stable/install/index.html)
 
-### User guide
+### User Guide
 
-The program has multiple options for visualization. 
+The program offers multiple options for visualization.
 
-Start the program with the command:  
+Start the program with the following command:
 
-```
-python3 init.py
-```
-
-
-The commands can be listed with the option "c".  
-
-![options](documentation/commands.png)
-
-The programs stops with the "quit" command.  
-
-### Example figures
-
-![gb](figures/gb_lc.png)
-![gender](figures/gender_dist.png)
-![pie](figures/gb_pie_chart.png)
